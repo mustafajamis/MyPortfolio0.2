@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta tags for character encoding and viewport settings -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mustafa Jamshidi - Portfolio</title>
+    <!-- Linking external styles and scripts -->
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>Mustafa Jamshidi</h1>
+            <p>Computer Science Student & Part-time Software Developer</p>
+            <img src="./newyorkme2 copy.jpg" alt="Profile Photo"> <!-- Consider adding an 'alt' description for accessibility -->
+            <div class="social-icons">
+                <!-- Consider adding 'rel="noopener noreferrer"' for security on target="_blank" links -->
+                <a href="https://www.linkedin.com/in/mxjamshidi/" target="Linkedin"><img src="./LEEESD.png" alt="LinkedIn"></a>
+                <a href="https://github.com/mustafajamis" target="_blank"><img src="./github.png" alt="GitHub"></a>
+                <a href="https://discord.com/channels/1145524819203473408/1145524820335939606" target="_blank"><img src="./discordBlackwhite.jpg" alt="Discord"></a>
+                <a href="https://instagram.com/mustafa_jamis" target="_blank"><img src="./INstaInsta.jpg" alt="Instagram"></a>
+                <a href="https://twitter.com/JamisMustafa" target="_blank"><img src="./twiterbla.png" alt="Twitter"></a>
+                <a href="https://www.twitch.tv/mr_pink2000" target="_blank"><img src="./newTwi.png" alt="Twitch"></a>    
+            </div>
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <!-- Consider adding unique IDs to the list items for potential navigation enhancements -->
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hi, I'm Mustafa Jamshidi, a 23-year-old self-taught programmer with a passion for crafting innovative solutions.
+                Currently in my third year at Wichita State University, I'm majoring in Computer Science, eager to delve deeper into the world of technology and software development.Currently, I'm immersed in the dynamic world of software development as a Software Engineer at NetApp.
+                Here, I bring concepts to life, creating solutions that make an impact.
+            </p>
+            <p>Beyond the code, you'll often find me staying active; I'm a dedicated gym-goer, finding joy in a good workout. And when I'm not on solid ground, you might just catch me in the exhilarating world of skydiving.
+                I'm also captivated by emerging technologies and their potential to revolutionize our digital landscape. I'm dedicated to staying at the forefront of industry trends, ensuring I'm always positioned to innovate.
+            </p>
+            <p>Let's connect and explore the exciting future of technology together!</p>
+        </section>
+        <section id="resume">
+            <h2>Resume</h2>
+            <button class="resume-button" onclick="openModal()">View Resume</button>
+        </section>
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>ShockShockers Dining</h3>
+                <p>Imagine a dining hall experience that feels like a personal nutritionist, right at your fingertips. That's exactly what the ShockShockers dinning project, spearheaded by myself, aims to achieve.
+                    the hustle and bustle of student life, deciding on a balanced meal can be a daunting task. This innovative solution transcends the conventional dining experience.
+                    Through the visionary leadership of mysefl, the team embarked on a journey to seamlessly integrate AI technology, turning it into a culinary virtuoso. 
+                    Whether you're a dedicated vegan seeking 1000 calories or an omnivore with a penchant for health, ShockShockers dinning crafts personalized meal plans tailored to your unique needs.
+                    It's not just an application; it's a culinary confidant, a trusted advisor in the pursuit of a balanced diet. Beyond the code, this project is a testament to teamwork, innovation,
+                     and  my leadership in shaping a healthier, more mindful dining experience for all.
+                <p>
+                <a href="https://github.com/mustafajamis/ShockShockersDining">View Project</a>
+            </div>
+            <div class="project">
+                <h3> Dynamic Explorations in C++: Mandelbrot Set, Snake Game, and Unreal Engine Obstacle Assault</h3>
+                <p>Embarking on a comprehensive exploration of the C++ programming language, I undertook a series of projects that showcase a meticulous understanding of its intricacies. From delving into the mathematical wonders of the Mandelbrot set to crafting a classic Snake game with strong foundations in object-oriented design, each endeavor demonstrated a deep grasp of algorithmic thinking. Leveraging console interfaces and dynamic memory allocation, these projects provided engaging and interactive experiences. Additionally, a foray into game development using Unreal Engine 5 yielded the Obstacle Assault Game, exemplifying an integration of C++ expertise with advanced gaming functionalities. Throughout, I emphasized version control, clear code structure, and rigorous debugging, ensuring optimal functionality and maintainability. These projects collectively stand as a testament to my dedication to mastering C++, blending educational immersion with dynamic programming experiences.</p>
+                <a href="https://github.com/mustafajamis/MyProjects/tree/master">View Project</a> <!-- Add a valid link for Project Title 2 -->
+            </div>
+        </section>
+    </main>
+    <footer id="contact">
+        <div class="contact-info">
+            <span><i class="fas fa-phone"></i> Phone: +1 (316) 771-1161</span>
+            <span><i class="far fa-envelope"></i> Email: mxjamshidi@shockers.wichita.edu</span>
+    </footer>
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button" onclick="closeModal()">&times;</span>
+            <iframe src="./MxjamshidiResume.pdf"></iframe>
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,403 @@
+/* styles.css */
+/* Base styles for the entire page */
+body {
+    font-family: 'Times New Roman', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+/* Styles for the header section */
+header {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #343a40;
+    color: #fff;
+}
+
+/* Styles for images in the header */
+.header-content img {
+    border-radius: 50%;
+    width: 300px; /* Adjust the value to your preference */
+    height: 300px; /* Adjust the value to your preference */
+    max-width: 300px;
+    margin-top: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Styles for paragraphs in the header */
+header p {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+/* Styles for the navigation menu */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    background-color: #343a40;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+nav li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.2em;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #007bff;
+}
+
+/* Styles for individual projects in the main section */
+main .project {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+main .project:hover {
+    transform: scale(1.03);
+}
+
+/* Styles for headings inside projects */
+main .project h3 {
+    margin-bottom: 10px;
+    font-size: 1.5em;
+}
+
+/* Styles for paragraphs inside projects */
+main .project p {
+    font-size: 1.1em;
+    color: #ebe3e3;
+}
+
+/* Styles for links inside projects */
+main .project a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+main .project a:hover {
+    background-color: #0056b3;
+}
+
+/* Styles for the header section */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #343a40;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Styles for social icons in the header */
+.social-icons img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.social-icons img:hover {
+    transform: scale(1.2);
+}
+
+/* Styles for contact information in the footer */
+.contact-info p {
+    font-size: 1.2em;
+    margin: 5px 0;
+}
+
+.contact-info a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.contact-info a:hover {
+    color: #007bff;
+}
+
+/* Additional styles for resume button */
+.resume-button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.resume-button a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.resume-button:hover {
+    background-color: #0056b3;
+}
+
+/* Updated background color for body */
+body {
+    font-family: 'Times New Roman', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Updated background color */
+    color: #ffffff;
+}
+
+/* Updated background color for header */
+header {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #343a40; /* Updated header background color */
+    color: #fff;
+}
+
+/* Updated background color for footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #343a40; /* Updated footer background color */
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Styles for social icons in the updated footer */
+.social-icons-footer img {
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.social-icons-footer img:hover {
+    transform: scale(1.2);
+}
+
+/* Styles for contact information links in the updated footer */
+.contact-info a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.contact-info a:hover {
+    color: #007bff;
+}
+
+
+/* Updated background color for header */
+header {
+    text-align: center;
+    padding: 50px 20px;
+    background: linear-gradient(45deg, #44b6ca, #d0c8c8, #45dda0, #5899f4, #d4cc31); /* Updated gradient background */
+    background-size: 400% 400%;
+    animation: gradientAnimation 15s infinite alternate;
+    color: #fff;
+}
+
+/* Updated background color for footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(45deg, #44b6ca, #d0c8c8, #45dda0, #5899f4, #d4cc31); /* Updated gradient background */
+    background-size: 400% 400%;
+    animation: gradientAnimation 15s infinite alternate;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    100% {
+        background-position: 100% 150%;
+    }
+}
+body {
+	background: linear-gradient(45deg, #44b6ca, #d0c8c8, #45dda0, #5899f4, #d4cc31);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+.project {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    background: linear-gradient(45deg, #44b6ca, #d0c8c8, #45dda0, #5899f4, #d4cc31); /* Updated gradient background */
+    background-size: 400% 400%;
+    animation: gradientAnimation 15s infinite alternate;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 0%;
+    }
+    100% {
+        background-position: 100% 100%;
+    }
+}
+
+section#about,
+section#resume,
+section#projects {
+    background: linear-gradient(45deg, #44b6ca, #d0c8c8, #45dda0, #5899f4, #d4cc31);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    padding: 50px 20px; /* Adjust padding as needed */
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    background-color: #343a40;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background: linear-gradient(45deg, #44b6ca, #d0c8c8, #45dda0, #5899f4, #d4cc31);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+
+nav li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.2em;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #007bff;
+}
+
+/* Keyframes for gradient animation */
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+/* Style for the modal container */
+.modal {
+    display: none; /* Initially, the modal is hidden */
+    position: fixed; /* Fixed position on the screen */
+    z-index: 1; /* Ensure it appears on top of other elements */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto; /* Enable scrolling if necessary */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black with 40% opacity */
+    padding-top: 60px; /* Add space for the header */
+}
+
+/* Style for the modal content */
+.modal-content {
+    background-color: #fefefe; /* White background */
+    margin: 5% auto; /* Center the modal vertically */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 600px; /* Set maximum width */
+}
+
+/* Style for the close button */
+.close-button {
+    color: #aaa; /* Light gray color */
+    float: right; /* Position on the top-right corner */
+    font-size: 28px; /* Adjust the font size */
+    font-weight: bold;
+}
+
+/* Hover and focus styles for the close button */
+.close-button:hover,
+.close-button:focus {
+    color: black; /* Change color on hover/focus */
+    text-decoration: none; /* Remove underline */
+    cursor: pointer; /* Show pointer cursor */
+}
+
+/* Style for the embedded iframe */
+iframe {
+    width: 100%; /* Fill the width of the container */
+    height: 500px; /* Set a fixed height */
+    border: none; /* Remove border around the iframe */
+}
